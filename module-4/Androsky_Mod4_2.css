@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+    color: rgba(0, 150, 150, 0.8);
+}
+
+h3 {
+    text-align: center;
+    color: rgba(214, 168, 0, 1);
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: .75em;
+    color: rgba(6, 78, 70, 1);
+}
+
+#image-gallery {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 10%;
+}
+
+#image-gallery img {
+    height: 350px
+}
+
+#image-gallery div {
+    border: 2px solid rgba(109, 113, 119, 1)
+}
+
+a {
+    float: right;
+    margin-top: 60px;
+}
