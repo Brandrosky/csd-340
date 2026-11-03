@@ -1,0 +1,68 @@
+<!-- Brandon Androsky
+ Module 9.3 JavaScript - Part 1 
+ 11/03/2026-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CSD 340 Web Development with HTML and CSS</title>
+</head>
+
+<body>
+    <div>
+        <h1>Assignment 9.3: JavaScript - Part 1</h1>
+        <h2>My Background and Interests</h2>
+        <p>I am currently working toward a bachelor's degree in Software Development. I previously earned
+            an associate
+            degree in Digital Forensics and <span id="cybersecurity">___________</span>, which introduced me to
+            several areas of information
+            technology. My current degree gives me an opportunity to build on that foundation while developing stronger
+            programming and software development skills. The two areas of study have given me different ways to approach
+            technology.</p>
+        <button type="button" onclick="fillInCybersecurity()">Cybersecurity</button>
+        <p>Before returning to school, I served in the U.S. <span id="army">____</span> as a military police officer for
+            seven years. During my
+            service, I worked in several different roles, including patrol, managing weapons and equipment, and managing
+            a police fleet. My time in the Army was a significant part of my life and is an important part of my
+            background. It was a very different experience from what I am doing now.</p>
+        <button type="button" onclick="fillInArmy()">Army</button>
+        <p>My family is an important part of my life, and I currently spend most of my time with my wife and <span
+                id="four">____</span>
+            children. When I have free time, I enjoy playing video games and exploring new technologies. I particularly
+            enjoy learning how computers and software work and experimenting with new tools. I tend to learn best when I
+            can try things for myself.</p>
+        <button type="button" onclick="fillInFour()">Four</button>
+        <p>I have enjoyed the process of learning software development so far, even though my <span
+                id="experience">_________</span>
+            with it is still limited. Learning how different parts of a program work together has been
+            interesting to me. My
+            current coursework has given me opportunities to work with HTML and begin learning more about programming. I
+            am looking forward to building on those skills as I continue through the program.</p>
+        <button type="button" onclick="fillInExperience()">Experience</button>
+    </div>
+
+    <script>
+        const cybersecurity = "Cybersecurity";
+        const army = "Army";
+        const four = "four";
+        const experience = "experience";
+
+        function fillInCybersecurity() {
+            document.getElementById("cybersecurity").textContent = cybersecurity;
+        }
+
+        function fillInArmy() {
+            document.getElementById("army").textContent = army;
+        }
+
+        function fillInFour() {
+            document.getElementById("four").textContent = four;
+        }
+
+        function fillInExperience() {
+            document.getElementById("experience").textContent = experience;
+        }
+    </script>
+</body>
+
+</html>
