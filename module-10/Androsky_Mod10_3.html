@@ -1,0 +1,33 @@
+<!--
+Brandon Androsky
+11/12/2026
+Module 10.3: JavaScript - Part 2
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <style>
+        #treasureChest {
+            width: 256px;
+            height: auto;
+            image-rendering: pixelated;
+        }
+
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Assignment 10.3: JavaScript - Part 2</h1>
+    <img id="treasureChest" src="Images/wood_chest_closed.png" alt="Closed wooden treasure chest"
+        onmouseover="openChest()" onmouseout="closeChest()" onclick="revealTreasure()">
+    <p>Hover over the chest to open it, and click to reveal the treasure!</p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
