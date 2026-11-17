@@ -1,0 +1,63 @@
+/*
+Brandon Androsky
+11/17/2026
+Module 11.2
+*/
+
+/* Main page styling*/
+body {
+    background-color: #F3F5F7;
+    color: #252B33;
+    padding: 20px;
+    text-align: center;
+}
+
+#taskPanel {
+    background-color: #E0E0E0;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    max-width: 650px;
+}
+
+input {
+    display: block;
+    margin: 10px auto 25px auto;
+    padding: 5px;
+}
+
+/*Styling for individual buttons and list*/
+button {
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+    margin: 0 5px;
+    border-radius: 10px;
+
+}
+
+button:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#addButton {
+    background-color: #6B9B7A;
+}
+
+#deleteButton {
+    background-color: #C77979;
+}
+
+#sortButton {
+    background-color: #7196BA;
+}
+
+#taskList {
+    list-style-type: none;
+    text-align: left;
+}
+
+li {
+    margin: 10px;
+}
